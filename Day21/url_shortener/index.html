@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>URL Shorten</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/acc650c956.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container icon">
+      <div class="logo" style="font-size: 30px">
+        <i class="fa-solid fa-bolt"></i>URL&nbsp;
+        <span class="heading"> Shortener </span>
+        <!-- <i class="fa-solid fa-u"></i>
+        <i class="fa-solid fa-r"></i>
+        <i class="fa-solid fa-l"></i>&nbsp;&nbsp;
+        <i class="fa-solid fa-s"></i>
+        <i class="fa-solid fa-h"></i>
+        <i class="fa-solid fa-o"></i>
+        <i class="fa-solid fa-r"></i>
+        <i class="fa-solid fa-t"></i>
+        <i class="fa-solid fa-e"></i>
+        <i class="fa-solid fa-n"></i>
+        <i class="fa-solid fa-e"></i>
+        <i class="fa-solid fa-r"></i> -->
+      </div>
+    </div>
+    <div class="main-section">
+      <div class="container content">
+        <h1 class="content_heading1">Link Shortener</h1>
+        <div class="file">
+          <div class="form-container">
+            <label>
+              Enter a Link:
+              <input
+                class="main-input"
+                type="text"
+                placeholder="example.com"
+                id="input"
+                value=""
+              />
+            </label>
+            <button type="submit" class="main-submit" id="submit">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <div class="short-domain">
+              <div class="radio-toolbar">
+                Short domain:
+                <input
+                  type="radio"
+                  id="domain1"
+                  name="domain"
+                  class="domain"
+                  value="shrtco.de"
+                  checked=""
+                />
+                <label for="domain1">shrtco.de</label>
+
+                <input
+                  type="radio"
+                  class="domain"
+                  id="domain2"
+                  name="domain"
+                  value="9qr.de"
+                />
+                <label for="domain2">9qr.de</label>
+
+                <input
+                  type="radio"
+                  id="domain3"
+                  name="domain"
+                  class="domain"
+                  value="shiny.link"
+                />
+                <label for="domain3">shiny.link</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="alert alert-dismissible d-none" id="error">
+          <div class="error-alert">
+            <b>Error</b> - Please enter a valid Link
+          </div>
+        </div>
+        <p class="description">
+          With this free Link Shortener you can make Links shorter and easier to
+          remember. Just enter a Link into the form and click on the above
+          Button to generate a short Link. When visiting the short-Link, the
+          short-Link will immediately redirect you to the long Link.
+        </p>
+      </div>
+    </div>
+    <div class="info-area">
+      <p>This is powered by <b>shrtco.de</b></p>
+    </div>
+    <div class="result-item d-none" id="result">
+      <small>Link generated!</small>
+      <a
+        class="linkGenerated"
+        id="result-page"
+        href="https://shrtco.de/oe3lTf"
+        target="_blank"
+        >shrtco.de/oe3lTf</a
+      ><br />
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Random-Quotes</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: black;
+      }
+      .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .content {
+        width: 400px;
+        height: 550px;
+        border-radius: 50px;
+        background: url(star.gif);
+        background-size: cover;
+        color: white;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .row {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      h1 {
+        color: aliceblue;
+      }
+      .info-area {
+        color: white;
+        text-align: center;
+        opacity: 0.7;
+        font-size: 12px;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        margin-left: 90px;
+        margin-right: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="row">
+          <div
+            class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3"
+          >
+            <div class="well quoteWell">
+              <blockquote>
+                <p class="quote lead"></p>
+                <footer>
+                  <cite class="author" title="author"></cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="info-area">
+          <p><b>Random Quotes</b>-&nbsp; click screen to change.</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

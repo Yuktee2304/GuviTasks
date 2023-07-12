@@ -1,0 +1,191 @@
+div{
+    display: block;
+}
+img {
+    border-radius: 50%;
+    border: 5px dashed#ffcc00;
+    widows: 30%;
+    height:32%;
+    margin-left: 35%;
+  }
+  i{
+    border-radius: 50%;
+    border: 2px dashed#ffcc00;
+    color:#ffcc00;
+    background-color: rgb(116, 112, 112);
+    font-size:24px;
+    width: 40px;
+    text-align: center;
+    padding: 2px;
+  }
+  p{
+      padding-left:10px;
+      text-align: justify;
+  }
+  h1
+  {
+    padding-left:10px;
+    
+  }
+.resumeBorder
+{
+    margin-left:20%;
+    margin-right: 20%;
+    background-color: blanchedalmond;
+}
+.resumeHead
+{   
+    position: relative;
+    background-color: rgb(116, 112, 112);
+}
+.profilePic
+{
+    padding-top:40px;
+    padding-bottom: 20px;
+    
+
+}
+.emptyLightGrey
+{
+    height: 40px;
+    background-color: rgb(226, 219, 219);
+}
+.emptyDarkGrey
+{
+    height: 40px;
+    background-color: rgb(116, 112, 112);
+}
+.profileName
+{
+    text-align: center;
+    width:60%;
+    position: absolute;
+    top:58%;
+    left:20%;
+    height:75px;
+    padding: 10px;
+    background-color: #ffcc00;
+    color: black;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+   
+}
+.address
+{
+    text-align: center;
+    border-bottom: 1px solid rgb(209, 207, 207);
+    background-color: rgb(255, 249, 249);
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.resumeBody
+{
+    background-color: rgb(255, 249, 249);
+    position: relative;
+    color: rgb(68, 64, 64)
+}
+.resumeBodyLeft
+{
+    background-color: rgb(255, 249, 249);
+    width:49%;
+    float: left;
+    height: 900px;
+}
+.vertical { 
+    border-left: 1px solid rgb(209, 207, 207);
+    height: 900px; 
+    position:absolute;
+    left: 50%; 
+} 
+.resumeBodyRight
+{
+    background-color: rgb(255, 249, 249);
+    width: 49%;
+    height: 900px;
+    float: right;
+}
+.resumeTitle
+{
+    color:rgb(116, 112, 112);
+}
+.workTitle
+{
+    position: relative;
+    display: inline-block;
+    width:50%;
+    font-style: bold;
+}
+.workYear
+{
+    position: relative;
+    display: inline;
+    width: 40%;
+    float: right;
+}
+.skillTitle
+{
+    text-align: center;
+    
+}
+.skillset
+{
+    position: relative;
+}
+
+.skillName
+{
+    
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    width:100%;
+    font-style: bold;
+    font-size: 13px;
+    float:left;
+    border: 1px solid black;
+    margin: 5px;
+
+    
+}
+
+.js
+{
+   
+    width:75%;
+    border-radius: 30px;
+    background-color: #ffcc00;
+
+}
+.css
+{
+    width:60%;
+    
+    border-radius: 30px;
+    background-color: #ffcc00;
+
+}
+.html
+{
+    width:100%;
+    
+    border-radius: 30px;
+    background-color: #ffcc00;
+
+}
+.react
+{
+    width:80%;
+    border-radius: 30px;
+    background-color: #ffcc00;
+    
+
+}
+.redux
+{
+    width:60%;
+    border-radius: 30px;
+    background-color: #ffcc00;
+    
+
+}
