@@ -1,0 +1,53 @@
+Movie table:
+movie_id (primary key)
+title
+release_date
+duration
+average_rating
+
+Media table:
+media_id (primary key)
+movie_id (foreign key referencing movie table)
+media_type (video or image)
+file_path
+
+Genre table:
+genre_id (primary key)
+genre_name
+
+Movie_Genre table (many-to-many relationship):
+movie_id (foreign key referencing movie table)
+genre_id (foreign key referencing genre table)
+
+Review table:
+review_id (primary key)
+movie_id (foreign key referencing movie table)
+user_id (foreign key referencing user table)
+review_text
+rating
+
+User table:
+user_id (primary key)
+username
+email
+
+Artist table:
+artist_id (primary key)
+artist_name
+
+Skill table:
+skill_id (primary key)
+skill_name
+
+Artist_Skill table (many-to-many relationship):
+artist_id (foreign key referencing artist table)
+skill_id (foreign key referencing skill table)
+
+Role table:
+role_id (primary key)
+role_name
+
+Film_Cast table:
+movie_id (foreign key referencing movie table)
+artist_id (foreign key referencing artist table)
+role_id (foreign key referencing role table)
